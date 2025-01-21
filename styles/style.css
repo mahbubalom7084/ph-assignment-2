@@ -119,11 +119,11 @@ body{
     color: #FFFFFF;
 }
 
-/* Standard Curriculum  */
+/* Standard Curriculum  start*/
 .Standard-Curriculum{
     background-image: url("../images/bg.png");
-
 }
+
 .curriculum-content{
     /* background-image: url("images/bg.png"); */
     width: 100%;
@@ -239,6 +239,139 @@ body{
     font-size: 25px;
     text-decoration: none;
 }
+/* Standard Curriculum End*/
+
+/* Our Stories start */
+.Our-Stories{
+    background-image: url("../images/bg.png"), linear-gradient(#FFFFFF, #fde5bc);
+    width: 100%;
+    height: 1018.02px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.stories-content{
+    height: 630.52px;
+    width: 1160px;
+    display: flex;
+    margin: 62px 140px 100px 140px;
+    gap: 19px;
+}
+
+.stories-card{
+    height: 630.52px;
+    width: 540.27px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+}
+
+.story-1-img{
+    height: 337px;
+    width: 540px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.stories-date{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 174.51px;
+    height: 47.93px;
+    background-color: #3CD8E8 ;
+    color: #FFFFFF;
+    border-radius: 47px;
+    margin: -2%;
+    margin-left: 2%;
+}
+
+.stories-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    padding: 31px;
+}
+
+.stories-discription{
+    font-family: "Raleway", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.34px;
+    line-height: 28px;
+    padding: 31px;
+}
+
+.grid-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 19px;
+}
+
+.card-1,.card-2,.card-3,.card-4{
+    height: 301.61px;
+    width: 290px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
+
+.grid-img{
+    height: 177px;
+    width: 290px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.date{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 174.51px;
+    height: 38.93px;
+    background-color: #95B226 ;
+    color: #FFFFFF;
+    border-radius: 47px;
+    margin: -2%;
+    margin-left: 2.5%;
+}
+.date-2{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 174.51px;
+    height: 38.93px;
+    background-color: #5D58F0 ;
+    color: #FFFFFF;
+    border-radius: 47px;
+    margin: -2%;
+    margin-left: 2.5%;
+}
+
+.card-title{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 28.8px;
+    padding: 37px;
+}
+
+.Our-Stories-btn{
+    background-color: #000000;
+    height: 50px;
+    width: 197px;
+    border-radius: 12px;
+    border: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.8rem;
+    color: #FFFFFF;
+}
+
+/* Our Stories End */
+
 
 @media screen and (max-width: 576px) {
     
