@@ -119,6 +119,23 @@ body{
     color: #FFFFFF;
 }
 
+/* Marquee */
+.Marquee{
+    width: 80%;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    background: #47c5ff;
+    margin: 20px 140px 0px;
+    border-radius: 5PX;
+}
+
+.notice{
+    font-weight: 500;
+    font-size: 20px;
+}
+
 /* Standard Curriculum  start*/
 .Standard-Curriculum{
     background-image: url("../images/bg.png");
